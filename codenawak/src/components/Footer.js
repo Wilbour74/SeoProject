@@ -20,8 +20,8 @@ export default function Footer() {
         </nav>
         <div className="text-xs text-gray-400 flex-1 min-w-[180px] flex flex-col items-center md:items-end">
           <div>
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition">GitHub</a> |
-            <a href="mailto:contact@codenawak.com" className="hover:text-yellow-400 transition ml-2">Contact</a>
+            <a href="https://github.com/Wilbour74/SeoProject" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 transition">GitHub</a> |
+            <a href="wilbour74@gmail.com" className="hover:text-yellow-400 transition ml-2">Contact</a>
           </div>
         </div>
       </div>
