@@ -6,13 +6,14 @@ import Javascript from './components/Javascript';
 import Python from './components/Python';
 import ReactPage from './components/ReactPage';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-100 via-yellow-50 to-gray-200">
         <Navbar />
-        <main className="flex-1">
+        <main className="flex-1 flex flex-col">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/php" element={<Php />} />
@@ -21,6 +22,7 @@ function App() {
             <Route path="/react" element={<ReactPage />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );
