@@ -11,6 +11,20 @@ export default function Home() {
       </Helmet>
       <h1 id="home-title" className="text-5xl font-extrabold text-yellow-500 mb-4 drop-shadow-lg animate-bounce">Bienvenue sur <span className="text-gray-900">Codenawak</span></h1>
       <p className="text-xl mb-8 max-w-2xl mx-auto animate-fade-in delay-200">La plateforme pour apprendre à coder simplement, étape par étape. Explore nos rubriques pour découvrir des tutoriels, des exemples de code, des astuces et des ressources pour progresser dans le développement web et la programmation.</p>
+      <section className="mb-12 w-full flex flex-col items-center">
+        <h2 className="text-3xl font-bold mb-2 text-yellow-600">Notre pédagogie</h2>
+        <p className="max-w-xl mx-auto">Codenawak propose une approche progressive, adaptée à tous les niveaux, du débutant à l'expert. Nos contenus sont pensés pour être accessibles, interactifs et concrets, avec des explications claires, des exemples pratiques et des exercices pour s'entraîner.</p>
+      </section>
+      <section className="mb-12 w-full flex flex-col items-center">
+        <h2 className="text-3xl font-bold mb-2 text-yellow-600">Bénéfices de la plateforme</h2>
+        <ul className="list-disc list-inside text-left mx-auto max-w-xl">
+          <li>Accès gratuit à des ressources de qualité</li>
+          <li>Progression à ton rythme, où que tu sois</li>
+          <li>Exemples concrets et projets pratiques</li>
+          <li>Support de la communauté et entraide</li>
+          <li>Découverte des dernières technologies web</li>
+        </ul>
+      </section>
       <nav aria-label="Rubriques principales" className="mb-12 w-full flex justify-center">
         <ul className="flex flex-col items-center gap-4 w-full max-w-xs">
           <li className="w-full"><Link to="/php" className="block w-full px-6 py-3 bg-yellow-400 text-gray-900 rounded shadow hover:bg-yellow-300 font-semibold transition duration-300 transform hover:scale-105 text-center text-base sm:text-lg md:text-xl">Découvrir PHP</Link></li>
@@ -54,6 +68,12 @@ export default function Home() {
         <section>
           <h2 className="text-3xl font-bold mb-2 text-yellow-600">Ressources gratuites</h2>
           <p>Accède à une sélection de ressources gratuites pour t'aider à progresser : livres, sites, vidéos, exercices interactifs, et plus encore !</p>
+          <ul className="list-disc list-inside text-left mx-auto max-w-xl mt-2">
+            <li><a href="https://www.freecodecamp.org/fr/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a> : Cours interactifs et projets web</li>
+            <li><a href="https://openclassrooms.com/fr/" target="_blank" rel="noopener noreferrer">OpenClassrooms</a> : Tutoriels et parcours diplômants</li>
+            <li><a href="https://www.codecademy.com/fr" target="_blank" rel="noopener noreferrer">Codecademy</a> : Exercices pratiques en ligne</li>
+            <li><a href="https://developer.mozilla.org/fr/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a> : Documentation de référence</li>
+          </ul>
         </section>
       </div>
     </section>
